@@ -5,6 +5,6 @@ const student={
 	city:"delhi"
 }
 function getKeys(student){
-	let result=object.keys(student);
+	let result=Object.keys(student);
 	return result;
 } console.log(getKeys(student));
